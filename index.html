@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <style>
+        .grid>div{
+            grid-row:var(--r);
+            grid-column: var(--c);
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full  bg-zinc-900">
+        <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
+            <div class="elem col-span-1 row-span-1" style="--r:1 ;--c:3;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/6.56a5d53b.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:1 ;--c:7;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/20.cae33766.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:2 ;--c:2;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/2.07ca36b5.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:2 ;--c:6;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/19.c66c7e95.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:3 ;--c:4;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/3.f6f48295.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:3 ;--c:8;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/4.516b9c03.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:4 ;--c:1;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/5.95d97ae8.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:4 ;--c:4;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/1.1770e3b3.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:5 ;--c:2;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/7.87dc6e8b.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:5 ;--c:6;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/8.0bda5054.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:6 ;--c:3;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/9.27ccf354.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:6 ;--c:7;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/18.ab0e512b.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:7 ;--c:5;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/10.f7990335.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:7 ;--c:8;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/11.ef4a18eb.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:8 ;--c:1;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/12.1c611c29.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:8 ;--c:4;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/13.20baef1e.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:9 ;--c:2;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/14.73a4162c.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:9 ;--c:6;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/15.fdc25495.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:10; --c:3;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/16.fce8daf8.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r:10; --c:7;"><img src="https://tympanus.net/Development/ScrollAnimationsGrid/17.acd308fd.jpg" alt="Image 1"></div>
+        </div>
+        <div class="fixed md:h-screen font-['Helvetica_Now_Display'] top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
+            <h1 class="text-8xl uppercase mb-4">Thomas Vance <sup>®</sup></h1>
+            <h2 class="text-5xl">並外れたファッション</h2>
+        </div>
+        <div class="w-full h-screen bg-[#D1D1D1] flex items-center justify-center relative z-[999] mx-auto py-96 text-center">
+            <p class="text-4xl w-3/4 text-black font-normal leading-[3.2rem] text-left">From the dawn of civilisation onwards crowds have always undergone the influence of illusions. It is to the creators of illusions that they have raised more temples, statues, and altars than to any other class of men.</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
